@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Unofficial.Microsoft.AnalysisServices.AdomdClient</id>
+    <version>12.0.2000.8</version>
+    <authors>Microsoft</authors>
+    <owners>Olivier GAUDEFROY</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/ogaudefroy/Unofficial.Microsoft.AnalysisServices.AdomdClient</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Unofficial package containing Microsoft.AnalysisServices.AdomdClient.dll file from Microsoft SQL Server.</description>
+    <releaseNotes>
+    -12.0.2000.8: Target SQL Server 2014
+    </releaseNotes>
+    <copyright>Microsoft Corp. All rights reserved.</copyright>
+    <tags>Analysis Services SSAS ADOMD Adomdclient Microsoft</tags>
+  </metadata>
+  <files>
+    <file src="lib/sql2014/Microsoft.AnalysisServices.AdomdClient.dll" target="lib/net40" />
+  </files>
+</package>
